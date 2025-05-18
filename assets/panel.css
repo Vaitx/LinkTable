@@ -1,0 +1,221 @@
+.body-panel {
+    font-family: 'Segoe UI', sans-serif;
+    background: #121212;
+    color: #dcdcdc;
+    margin: 0;
+    padding: 0;
+}
+
+.page-auth {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: url('/assets/img/fon-form.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.form-auth {
+    width: 420px;
+	background: transparent;
+	color: #fff;
+	border: 2px solid rgba(255, 255, 255, .2);
+	backdrop-filter: blur(20px);
+	border-radius: 10px;
+	padding: 40px 25px;
+}
+.form-auth form {
+	padding: 20px;
+}
+.form-auth h1 {
+	font-size: 36px;
+	text-align: center;
+	padding-block-end: 20px;
+}
+.form-auth p {
+	font-size: 14.5px;
+	text-align: center;
+}
+.form-auth a {
+	font-weight: 600;
+}
+.form-auth a:hover {
+	color: #ffffffe0;
+}
+.form-auth button {
+	width: 100%;
+	height: 45px;
+	background: #fff;
+	border-radius: 40px;
+	border: none;
+	outline: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	cursor: pointer;
+	font-size: 16px;
+	color: #333;
+	font-weight: 600;
+	margin-block: 20px;
+}
+.form-auth button:hover {
+	background: #d3d3d3;
+}
+.form-auth .input-box {
+    position: relative;
+	margin: 20px 0;
+    display: flex;
+}
+.input-box input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+	padding: 10px 20px 10px 20px;
+}
+
+.panel {
+    padding: 2rem;
+    margin-bottom: 120px;
+}
+
+.panel .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.panel .top-bar button {
+    background: #2a2a2a;
+    color: #f5f5f5;
+    border: 1px solid #444;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.panel .top-bar button:hover {
+    background: #3a3a3a;
+}
+
+
+
+.panel table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1e1e1e;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.panel th, .panel td {
+    padding: 0.9rem;
+    border-bottom: 1px solid #333;
+}
+.panel th {
+    background: #202020;
+    color: #66ff99;
+}
+.panel a {
+    color: #5ccfe6;
+    text-decoration: none;
+}
+.panel button {
+    background: #1e883f;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.panel button:hover {
+    background: #27a357;
+}
+.panel .message {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.panel .success { background: #234d2f; color: #a4f2a4; }
+.panel .error { background: #4d2b2b; color: #f2a4a4; }
+
+
+/* Модальные окна */
+.panel .modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+.panel .modal-content {
+    background: #1c1c1c;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    animation: slideUp 0.3s;
+}
+@keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0 }
+    to   { transform: translateY(0); opacity: 1 }
+}
+.panel label { display: block; margin: 0.5rem 0 0.2rem; }
+.panel input, .panel textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border: none;
+    background: #2e2e2e;
+    color: #fff;
+}
+.panel .actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+
+.footer {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background: var(--bg-footer);
+    color: #888;
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 1px solid var(--border);
+    animation: fadeInFooter 1s ease-out;
+}
+
+.footer-inner {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer-title {
+    font-size: 1.1rem;
+    color: #66ff99;
+    margin-bottom: 0.3rem;
+}
+
+.footer-inner a {
+    color: #4fa3ff;
+    text-decoration: none;
+}
+
+.footer-note {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #5ccfe6;
+}
+
+@keyframes fadeInFooter {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

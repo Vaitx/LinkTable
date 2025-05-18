@@ -1,0 +1,26 @@
+{
+    "1747574900": {
+        "number": 1,
+        "title": "Vaitx",
+        "url": "https:\/\/vaitx.ru",
+        "desc": "Официальный сайт разработчика проекта LinkTable. Здесь вы найдете информацию, блоги и другие проекты от Vaitx."
+    },
+    "1747574969": {
+        "number": 2,
+        "title": "GitHub профиль Vaitx",
+        "url": "https:\/\/github.com\/Vaitx",
+        "desc": "Репозиторий GitHub с открытым исходным кодом проектов, разработанных Vaitx, включая LinkTable и другие наработки."
+    },
+    "1747575027": {
+        "number": 3,
+        "title": "О проекте Vaitx",
+        "url": "https:\/\/vaitx.ru\/about\/",
+        "desc": "Страница с информацией о проекте Vaitx."
+    },
+    "1747575121": {
+        "number": 4,
+        "title": "Поддержать проект",
+        "url": "https:\/\/github.com\/Vaitx\/vaitx\/blob\/main\/DONATE.md",
+        "desc": "Страница с информацией о том, как поддержать разработку проекта LinkTable и других решений от Vaitx."
+    }
+}
