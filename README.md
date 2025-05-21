@@ -1,4 +1,4 @@
-[English version available here](link-to-english-version)
+[English version available here](README_EN.md)
 
 ---
 
